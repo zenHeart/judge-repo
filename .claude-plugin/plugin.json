@@ -1,0 +1,10 @@
+{
+  "name": "judge-repo",
+  "version": "0.1.0",
+  "description": "Score GitHub repository health from 0 to 100 using maintenance, responsiveness, resilience, engineering and adoption signals.",
+  "author": { "name": "zenHeart", "url": "https://github.com/zenHeart" },
+  "homepage": "https://github.com/zenHeart/judge-repo",
+  "repository": "https://github.com/zenHeart/judge-repo",
+  "license": "MIT",
+  "keywords": ["github", "open-source", "repository-health", "dependency-selection", "gh"]
+}

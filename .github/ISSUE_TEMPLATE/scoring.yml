@@ -1,0 +1,24 @@
+name: Scoring disagreement
+description: A repository received a score that looks wrong
+labels: [scoring]
+body:
+  - type: input
+    id: repo
+    attributes:
+      label: Repository
+      placeholder: owner/repo
+    validations:
+      required: true
+  - type: textarea
+    id: output
+    attributes:
+      label: judge-repo output
+      render: markdown
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What score did you expect, and which evidence supports it?
+    validations:
+      required: true
